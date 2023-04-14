@@ -57,7 +57,7 @@ class GozdzikGame:
         self.game.players = [Player(100, consts.BASE_HEIGHT) for _ in range(len(solutions))]
 
         while len(self.game.players) > 0:
-            clock.tick(200)  # high FPS for faster training
+            clock.tick(100)  # high FPS for faster training
             self.game.loop()
 
             if self.game.score > 100:  # our model is good enough we can stop the game
@@ -97,6 +97,11 @@ class GozdzikGame:
             pygame.display.update()
 
 
+def test_ai(network: neat.nn.FeedForwardNetwork):
+    game = GozdzikGame(consts.WINDOW_WIDTH, consts.WINDOW_HEIGHT)
+    game.test_ai(network)
+
+
 def train_ai(config: neat.config.Config):
     p = neat.Population(config)
     p.add_reporter(neat.StdOutReporter(True))
@@ -119,7 +124,11 @@ def main(neat_config_path: str) -> None:
                                      neat.DefaultSpeciesSet, neat.DefaultStagnation,
                                      neat_config_path)
 
-    train_ai(neat_config)
+    # train_ai(neat_config)
+    with open(f"{CWD}/models/best_model.pickle", "rb") as f:
+        winner = pickle.load(f)
+    winner_net = utils.build_ff_network(winner, neat_config)
+    test_ai(winner_net)
 
 
 if __name__ == "__main__":
