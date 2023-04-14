@@ -1,5 +1,7 @@
 # Goździk the Game - powered by NEAT algorithm
 
+![test ai](https://s11.gifyu.com/images/test.gif)
+
 ## Introduction
 
 I decided to use NEAT (Neuroevolution of augmenting topologies) to teach a Feed Forward neural network model to play a platform game. It connects genetic algorithms with the power of neural networks which I've found fascinating. The notion behind NEAT is to encode neural networks as chromosomes and improve them through evolution using fitness function as a metric. It's a powerful tool for various reinforcement learning tasks.
