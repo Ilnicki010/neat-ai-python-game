@@ -1,7 +1,8 @@
 # Goździk the Game - powered by NEAT algorithm
 
-![test ai](https://s11.gifyu.com/images/test.gif)
-<img src="https://s11.gifyu.com/images/test.gif" width="100" height="100" />
+
+https://user-images.githubusercontent.com/18630618/232147738-85db54da-db5c-47ba-8ad8-950fa2d1542e.mov
+
 
 ## Introduction
 
@@ -82,7 +83,7 @@ Below is a neural network our algorithm found works best for this problem. I sav
 
 Here you can check out our trained network playing the game by it's own.
 
-![test ai](https://s11.gifyu.com/images/test.gif)
+[![test ai](https://s11.gifyu.com/images/test.gif)](https://user-images.githubusercontent.com/18630618/232147738-85db54da-db5c-47ba-8ad8-950fa2d1542e.mov)
 
 ## Setting up
 
