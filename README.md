@@ -1,7 +1,7 @@
 # Goździk the Game - powered by NEAT algorithm
 
 ![test ai](https://s11.gifyu.com/images/test.gif)
-<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+<img src="https://s11.gifyu.com/images/test.gif" width="100" height="100" />
 
 ## Introduction
 
