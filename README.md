@@ -79,15 +79,14 @@ Below is a neural network our algorithm found works best for this problem. I sav
 
 Here you can check out our trained network playing the game by it's own.
 
-[![test.gif](https://s11.gifyu.com/images/test.gif)](https://gifyu.com/image/SdRnA)
-
+![test ai](https://s11.gifyu.com/images/test.gif)
 
 ## Setting up
 
-1. git clone https://github.com/Ilnicki010/neat-ai-python-game.git
-2. cd neat-ai-python-game
-3. pip install -r requirements.txt
-4. run main.py
+1. ```git clone https://github.com/Ilnicki010/neat-ai-python-game.git```
+2. ```cd neat-ai-python-game```
+3. ```pip install -r requirements.txt```
+4. ```python main.py```
 
 ## Future development
 
