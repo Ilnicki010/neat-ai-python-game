@@ -1,0 +1,11 @@
+digraph {
+	node [fontsize=9 height=0.2 shape=circle width=0.2]
+	"obstacle y" [fillcolor=lightgray shape=box style=filled]
+	"dist from player to obstacle" [fillcolor=lightgray shape=box style=filled]
+	"obstacle vel" [fillcolor=lightgray shape=box style=filled]
+	"obstacle type" [fillcolor=lightgray shape=box style=filled]
+	0 [fillcolor=lightblue style=filled]
+	"dist from player to obstacle" -> 0 [label=-1.68 color=red penwidth=0.43663093638657013 style=solid]
+	"obstacle vel" -> 0 [label=0.42 color=green penwidth=0.18384455507956254 style=solid]
+	"obstacle type" -> 0 [label=-0.46 color=red penwidth=0.19253595202070284 style=solid]
+}
