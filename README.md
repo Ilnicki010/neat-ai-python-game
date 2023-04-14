@@ -79,7 +79,7 @@ Below is a neural network our algorithm found works best for this problem. I sav
 
 Here you can check out our trained network playing the game by it's own.
 
-<a href="https://ibb.co/cFFqg8B"><img src="https://i.ibb.co/J77ZBp1/test.gif" alt="test" border="0"></a>
+![Trained NEAT](https://i.ibb.co/J77ZBp1/test.gif)
 
 
 ## Setting up
