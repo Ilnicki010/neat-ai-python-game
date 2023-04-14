@@ -79,9 +79,19 @@ Below is a neural network our algorithm found works best for this problem. I sav
 
 Here you can check out our trained network playing the game by it's own.
 
-![Trained NEAT](https://i.ibb.co/J77ZBp1/test.gif)
+[![test.gif](https://s11.gifyu.com/images/test.gif)](https://gifyu.com/image/SdRnA)
 
 
 ## Setting up
 
+1. git clone https://github.com/Ilnicki010/neat-ai-python-game.git
+2. cd neat-ai-python-game
+3. pip install -r requirements.txt
+4. run main.py
+
 ## Future development
+
+My list of ideas to improve in a neuroevolution:
+- Make game more complex (maybe sth like Mario or Donkey Kong)
+- Try to do a multiplayer game (many AIs fight with each other)
+- Neuroevolution = many neural networks = many simulations = computing power. Read more about running these in parallel, optimize, run on Azure, etc.
